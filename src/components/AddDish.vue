@@ -442,7 +442,7 @@ export default {
             delete params.updateTime
             editDish(params).then(res => {
               if (res.code === 1) {
-                this.$message.success('菜品修改成功！')
+                this.$message.success('菜品修改成功,请添加菜品！')
                 this.goBack()
               } else {
                 this.$message.error(res.msg || '操作失败')
