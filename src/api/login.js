@@ -16,4 +16,3 @@ function logoutApi() {
 }
 
 export {loginApi, logoutApi}
-
