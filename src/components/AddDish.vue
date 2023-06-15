@@ -188,7 +188,7 @@
                 class="continue"
                 @click="submitForm('ruleForm','goAnd')"
             >
-              保存并继续添加菜品
+              保存并继续添加菜品*
             </el-button>
           </el-form-item>
         </div>
