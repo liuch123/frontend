@@ -185,7 +185,7 @@ export default {
           this.counts = res.data.total
         }
       }).catch(err => {
-        this.$message.error('请求出错了：' + err)
+        this.$message.error('请求的出错了：' + err)
       })
     },
     handleQuery() {
